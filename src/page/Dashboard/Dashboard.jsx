@@ -57,7 +57,8 @@ export default function Dashboard() {
   };
 
   const convertNumberToPercent = (n) => {
-    return `${Number(n.toFixed(2))}`;
+    const truncated = Math.floor(n * 100) / 100;
+    return truncated.toFixed(2);
   };
 
   useEffect(() => {
