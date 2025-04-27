@@ -1,0 +1,59 @@
+.wrapper {
+  font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+h1 {
+  color: #2c3e50;
+  border-bottom: 3px solid #2c3e50;
+  padding-bottom: 8px;
+}
+h2 {
+  color: #34495e;
+  margin-top: 24px;
+  border-left: 4px solid #34495e;
+  padding-left: 8px;
+}
+h3 {
+  color: #555;
+  margin-top: 16px;
+}
+ul,
+ol {
+  margin-left: 24px;
+}
+li {
+  margin-bottom: 8px;
+}
+.advantages li::before {
+  content: "✔︎";
+  display: inline-block;
+  width: 1.2em;
+  color: #27ae60;
+}
+.issues li::before {
+  content: "✖︎";
+  display: inline-block;
+  width: 1.2em;
+  color: #c0392b;
+}
+.recommendation {
+  background-color: #ecf0f1;
+  padding: 16px;
+  border-radius: 5px;
+  margin-top: 12px;
+}
+.recommendation h3 {
+  margin-top: 0;
+}
+.risk-list li::before {
+  content: "•";
+  display: inline-block;
+  width: 1.2em;
+  color: #8e44ad;
+}
+strong {
+  color: #2c3e50;
+}
