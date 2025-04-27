@@ -71,9 +71,20 @@ src/
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
+
+3. Create a `.env` file in the root directory and add the following fields:
+
+   ```properties
+   VITE_AWS_ACCESS_KEY_ID=<your-aws-access-key-id>
+   VITE_AWS_SECRET_ACCESS_KEY=<your-aws-secret-access-key>
+   VITE_AWS_DEFAULT_REGION=<your-aws-region>
+   ```
+
+   Replace `<your-aws-access-key-id>`, `<your-aws-secret-access-key>`, and `<your-aws-region>` with your AWS credentials.
 
 ### Development
 
